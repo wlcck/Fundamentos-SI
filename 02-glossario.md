@@ -4,7 +4,7 @@
 ## DaaS(Data as a Service)
 - Descrição:
 DaaS significa Dados como Serviço. Nesse modelo, os dados são armazenados e disponibilizados na nuvem para que usuários ou aplicações possam acessá-los pela internet, geralmente através de APIs ou plataformas online.
--# Para que serve:
+- Para que serve:
 Permite que empresas acessem e compartilhem dados sem precisar armazená-los localmente ou gerenciar toda a infraestrutura de dados.
 - Exemplo de mercado:
 Snowflake — plataforma que permite compartilhar e acessar grandes volumes de dados na nuvem.
@@ -12,41 +12,41 @@ Snowflake — plataforma que permite compartilhar e acessar grandes volumes de d
 
   
 ## DBaaS (Database as a Service)
-  ## Descrição:
+- Descrição:
 DBaaS significa Banco de Dados como Serviço. O provedor de nuvem oferece um banco de dados gerenciado, cuidando de instalação, manutenção, backups e atualizações.
-  ## Para que serve:
+- Para que serve:
 Permite que desenvolvedores utilizem bancos de dados sem precisar configurar ou administrar servidores.
-  ## Exemplo de mercado:
+- Exemplo de mercado:
 Amazon RDS — serviço da Amazon Web Services que oferece bancos de dados gerenciados na nuvem.
 
 
     
 ## FaaS (Function as a Service)
-  ## Descrição:
+- Descrição:
 FaaS significa Função como Serviço. Nesse modelo, o desenvolvedor cria pequenas funções de código que são executadas somente quando ocorre um evento específico.
-  ## Para que serve:
+- Para que serve:
 Permite executar código sem gerenciar servidores, pagando apenas pelo tempo de execução.
-  ## Exemplo de mercado:
+- Exemplo de mercado:
 AWS Lambda — serviço da Amazon Web Services que executa funções automaticamente na nuvem.
 
 
     
 ## IaaS (Infrastructure as a Service)
-  ## Descrição:
+- Descrição:
 IaaS significa Infraestrutura como Serviço. O provedor fornece recursos básicos como máquinas virtuais, armazenamento e redes.
-  ## Para que serve:
+- Para que serve:
 Permite que empresas criem servidores e infraestrutura de TI na nuvem sem precisar comprar hardware físico.
-  ## Exemplo de mercado:
+- Exemplo de mercado:
 Amazon EC2 da Amazon Web Services — permite criar e gerenciar servidores virtuais.
 
 
     
 ## PaaS (Platform as a Service)
-  ## Descrição:
+- Descrição:
 PaaS significa Plataforma como Serviço. O provedor oferece um ambiente completo para desenvolver, testar e publicar aplicações.
-  ## Para que serve:
+- Para que serve:
 Facilita o desenvolvimento de software, pois os desenvolvedores não precisam gerenciar a infraestrutura.
-  ## Exemplo de mercado:
+- Exemplo de mercado:
 Google App Engine da Google — plataforma para desenvolver e hospedar aplicações na nuvem.
 
 
