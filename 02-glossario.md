@@ -9,6 +9,8 @@ Permite que empresas acessem e compartilhem dados sem precisar armazená-los loc
   ## Exemplo de mercado:
 Snowflake — plataforma que permite compartilhar e acessar grandes volumes de dados na nuvem.
 
+
+  
 ## DBaaS (Database as a Service)
   ## Descrição:
 DBaaS significa Banco de Dados como Serviço. O provedor de nuvem oferece um banco de dados gerenciado, cuidando de instalação, manutenção, backups e atualizações.
@@ -16,6 +18,8 @@ DBaaS significa Banco de Dados como Serviço. O provedor de nuvem oferece um ban
 Permite que desenvolvedores utilizem bancos de dados sem precisar configurar ou administrar servidores.
   ## Exemplo de mercado:
 Amazon RDS — serviço da Amazon Web Services que oferece bancos de dados gerenciados na nuvem.
+
+
     
 ## FaaS (Function as a Service)
   ## Descrição:
@@ -24,6 +28,8 @@ FaaS significa Função como Serviço. Nesse modelo, o desenvolvedor cria pequen
 Permite executar código sem gerenciar servidores, pagando apenas pelo tempo de execução.
   ## Exemplo de mercado:
 AWS Lambda — serviço da Amazon Web Services que executa funções automaticamente na nuvem.
+
+
     
 ## IaaS (Infrastructure as a Service)
   ## Descrição:
@@ -32,6 +38,8 @@ IaaS significa Infraestrutura como Serviço. O provedor fornece recursos básico
 Permite que empresas criem servidores e infraestrutura de TI na nuvem sem precisar comprar hardware físico.
   ## Exemplo de mercado:
 Amazon EC2 da Amazon Web Services — permite criar e gerenciar servidores virtuais.
+
+
     
 ## PaaS (Platform as a Service)
   ## Descrição:
@@ -41,6 +49,8 @@ Facilita o desenvolvimento de software, pois os desenvolvedores não precisam ge
   ## Exemplo de mercado:
 Google App Engine da Google — plataforma para desenvolver e hospedar aplicações na nuvem.
 
+
+
 ## SaaS (Software as a Service)
   ## Descrição:
 SaaS significa Software como Serviço. O software é acessado diretamente pela internet, sem necessidade de instalação no computador do usuário.
@@ -48,6 +58,8 @@ SaaS significa Software como Serviço. O software é acessado diretamente pela i
 Permite usar aplicativos online com atualizações automáticas e acesso de qualquer lugar.
   ## Exemplo de mercado:
 Google Docs da Google — editor de documentos acessado pelo navegador.
+
+
    
 ## SECaaS (Security as a Service)
   ## Descrição:
