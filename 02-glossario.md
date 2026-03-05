@@ -4,7 +4,7 @@
 ## DaaS(Data as a Service)
 - Descrição:
 DaaS significa Dados como Serviço. Nesse modelo, os dados são armazenados e disponibilizados na nuvem para que usuários ou aplicações possam acessá-los pela internet, geralmente através de APIs ou plataformas online.
-- Para que serve:
+-# Para que serve:
 Permite que empresas acessem e compartilhem dados sem precisar armazená-los localmente ou gerenciar toda a infraestrutura de dados.
 - Exemplo de mercado:
 Snowflake — plataforma que permite compartilhar e acessar grandes volumes de dados na nuvem.
