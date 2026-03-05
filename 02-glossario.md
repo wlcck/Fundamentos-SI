@@ -52,11 +52,11 @@ Google App Engine da Google — plataforma para desenvolver e hospedar aplicaç�
 
 
 ## SaaS (Software as a Service)
-  ## Descrição:
+- Descrição:
 SaaS significa Software como Serviço. O software é acessado diretamente pela internet, sem necessidade de instalação no computador do usuário.
-  ## Para que serve:
+- Para que serve:
 Permite usar aplicativos online com atualizações automáticas e acesso de qualquer lugar.
-  ## Exemplo de mercado:
+- Exemplo de mercado:
 Google Docs da Google — editor de documentos acessado pelo navegador.
 
 
