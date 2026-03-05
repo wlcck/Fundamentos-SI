@@ -62,9 +62,9 @@ Google Docs da Google — editor de documentos acessado pelo navegador.
 
    
 ## SECaaS (Security as a Service)
-  ## Descrição:
+- Descrição:
 SECaaS significa Segurança como Serviço. Nesse modelo, ferramentas de segurança digital são oferecidas pela nuvem.
-  ## Para que serve:
+- Para que serve:
 Protege sistemas, redes e dados sem a necessidade de instalar e gerenciar soluções de segurança localmente.
-  ## Exemplo de mercado:
+- Exemplo de mercado:
 Cloudflare — oferece serviços de proteção contra ataques, firewall e segurança para sites.
