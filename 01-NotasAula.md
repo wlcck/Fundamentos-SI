@@ -9,6 +9,11 @@
           - O Assunto da mensagem é: "Trabalho fundamentos SI"
         - Data: 19/03/2026
         - Hora:20:00
+        - Algumas curiosidades: Os sistemas abaixo são de que tipo de SI?
+          - gov.br
+          - Netflix
+          - Minha agenda UFN
+          - Sistema de Imposto de Renda do Governo Brasileiro
 
 ## Aula 4 
 - Discussao da tarefa sobre modelo arquiteturas
