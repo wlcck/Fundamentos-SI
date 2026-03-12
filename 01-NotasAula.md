@@ -5,9 +5,13 @@
     - Assunto: Tipos de sistema da Informação
     - Pesquisar, escrever e dar exemplo dos diferentes tipos de sistemda da informação
         - O Resultado da pesquisa deve ser colocado no arquivo glosario.md do repositorio de cada aluno
+        - Enviar para alexz@ufn.edu.br o lonk do repositorio contendo o glossario.md
+          - O Assunto da mensagem é: "Trabalho fundamentos SI"
+        - Data: 19/03/2026
+        - Hora:20:00
 
 ## Aula 4 
- Discussao da tarefa sobre modelo arquiteturas
+- Discussao da tarefa sobre modelo arquiteturas
     - Computação ou processamento
       - desktop
       - web -> Cloud computing - computação em Nuvem
