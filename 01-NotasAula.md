@@ -1,10 +1,6 @@
 # Notas de aula da disciplina
 ## Aula 4 
-- Fundamentos de SI
-  - Conceitos:
-    - Sistemas
-      -partes
-      - tipos
+## Discussao da tarefa sobre modelo arquiteturas
     - Computação ou processamento
       - desktop
       - web -> Cloud computing - computação em Nuvem
