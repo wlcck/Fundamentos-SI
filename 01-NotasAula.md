@@ -7,7 +7,7 @@
         - O Resultado da pesquisa deve ser colocado no arquivo glosario.md do repositorio de cada aluno
 
 ## Aula 4 
-## Discussao da tarefa sobre modelo arquiteturas
+ Discussao da tarefa sobre modelo arquiteturas
     - Computação ou processamento
       - desktop
       - web -> Cloud computing - computação em Nuvem
