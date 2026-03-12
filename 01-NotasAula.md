@@ -1,4 +1,38 @@
 # Notas de aula da disciplina
+## Aula 4 
+- Fundamentos de SI
+  - Conceitos:
+    - Sistemas
+      -partes
+      - tipos
+    - Computação ou processamento
+      - desktop
+      - web -> Cloud computing - computação em Nuvem
+          - Apps (software instalado em equipamento)
+          - Navegador
+          - IoT - Internet of Things
+          - VANTAGENS
+            - flexibilidade
+            - autonomia
+            - agilidade
+            - integração de tecnologias
+          - DESVANTAGENS
+            - segurança
+            - dependência
+          - ARQUITETURA
+            - cliente-servidor
+            - Ponto-a-ponto
+          - Modelos arquiteturais de serviços
+            - Saas
+            - DBaas
+            - Caas
+            - Pass
+            - Daas
+            - Faas
+            - IaaS
+          
+  
+
 ## Aula 3
   -apresentação da Oficina de Git -https://github.com/alexandrezamberlan/oficinaGit
   -Apresentação, discussão e 1o trabalhho avaliado
