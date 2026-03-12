@@ -20,7 +20,7 @@
             - segurança
             - dependência
           - ARQUITETURA
-            - cliente-servidor
+            - cliente-servidor 
             - Ponto-a-ponto
           - Modelos arquiteturais de serviços
             - Saas
