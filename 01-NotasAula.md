@@ -1,4 +1,11 @@
 # Notas de aula da disciplina
+
+##  Aula 5
+- Tarefa avaliativa
+    - Assunto: Tipos de sistema da Informação
+    - Pesquisar, escrever e dar exemplo dos diferentes tipos de sistemda da informação
+        - O Resultado da pesquisa deve ser colocado no arquivo glosario.md do repositorio de cada aluno
+
 ## Aula 4 
 ## Discussao da tarefa sobre modelo arquiteturas
     - Computação ou processamento
