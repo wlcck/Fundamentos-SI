@@ -1,6 +1,6 @@
 
 
-**Trabalho fundamentos SI** **(19/03)**
+## Trabalho fundamentos SI **(19/03)**
 
 Os Sistemas de Informação (SI) são conjuntos organizados de pessoas, processos e tecnologias que coletam, processam e distribuem informações para apoiar decisões e atividades dentro de uma organização ou no dia a dia das pessoas. Existem diferentes tipos de sistemas de informação, cada um com uma finalidade específica.
 
