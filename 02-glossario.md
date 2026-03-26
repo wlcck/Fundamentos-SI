@@ -32,6 +32,24 @@ Em resumo, os Sistemas de Informação estão presentes em praticamente todas as
 
 
 
+## Assunto: Trabalho fundamentos SI (Complemento final)
+
+Além do CRM, existem outros tipos de Sistemas de Informação que também são muito utilizados e podem complementar o trabalho.
+
+Um deles é o **ERP (Enterprise Resource Planning)**, ou Sistema de Gestão Empresarial. Ele integra diferentes áreas de uma empresa, como financeiro, estoque, vendas e recursos humanos, permitindo que todas compartilhem informações em um único sistema. Um exemplo é quando uma venda registrada já atualiza automaticamente o estoque e o caixa da empresa.
+
+Outro tipo é o **SCM (Supply Chain Management)**, que gerencia a cadeia de suprimentos. Ele controla desde a compra de matéria-prima até a entrega do produto final ao cliente. Um exemplo é uma indústria que acompanha todo o processo de produção e distribuição por meio desse sistema.
+
+Também podemos citar o **KMS (Knowledge Management System)**, ou Sistema de Gestão do Conhecimento. Ele serve para armazenar e compartilhar conhecimento dentro de uma organização, como manuais, treinamentos e boas práticas. Um exemplo é uma empresa que mantém uma base de dados com soluções para problemas comuns enfrentados pelos funcionários.
+
+Além disso, existem os **Sistemas de Informação para Comércio Eletrônico**, que permitem compras e vendas pela internet. Esses sistemas cuidam de pedidos, pagamentos e entregas. Um exemplo são lojas online que processam pedidos automaticamente.
+
+Outro ponto interessante é que muitos sistemas atuais utilizam **Inteligência Artificial (IA)** para melhorar seu desempenho. Isso permite, por exemplo, recomendar produtos, prever comportamentos e automatizar atendimentos, como acontece em aplicativos de música e filmes.
+
+Por fim, é importante destacar que os Sistemas de Informação estão cada vez mais presentes no cotidiano, tanto em empresas quanto na vida pessoal, facilitando tarefas, organizando dados e ajudando na tomada de decisões de forma mais rápida e eficiente.
+
+
+
 ## Tarefa 1 - Aula 3
   ## Realizar uma pesquisa (em IA generativa ou livros da área) sobre os conceitos ligados aos modelos de arquitetura de software:
     
