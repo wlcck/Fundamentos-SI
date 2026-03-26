@@ -1,3 +1,37 @@
+
+
+**Trabalho fundamentos SI** **(19/03)**
+
+Os Sistemas de Informação (SI) são conjuntos organizados de pessoas, processos e tecnologias que coletam, processam e distribuem informações para apoiar decisões e atividades dentro de uma organização ou no dia a dia das pessoas. Existem diferentes tipos de sistemas de informação, cada um com uma finalidade específica.
+
+Um dos principais tipos é o **Sistema de Processamento de Transações (SPT)**. Ele é responsável por registrar operações rotineiras, como vendas, pagamentos e cadastros. Um exemplo simples é o sistema de um supermercado, que registra cada compra realizada no caixa.
+
+Outro tipo é o **Sistema de Informação Gerencial (SIG)**. Esse sistema organiza dados e gera relatórios para ajudar gestores a tomar decisões. Por exemplo, uma empresa pode usar um SIG para analisar suas vendas mensais e identificar quais produtos têm maior saída.
+
+Também existe o **Sistema de Apoio à Decisão (SAD)**, que auxilia na resolução de problemas mais complexos. Ele utiliza dados e modelos para simular cenários. Um exemplo seria um sistema que ajuda uma empresa a decidir se deve investir em um novo produto.
+
+O **Sistema de Informação Executiva (SIE)** é voltado para altos gestores. Ele apresenta informações estratégicas de forma resumida e clara, facilitando decisões importantes. Um exemplo é um painel com indicadores de desempenho da empresa.
+
+Outro tipo importante é o **Sistema de Automação de Escritório (SAE)**, que ajuda nas tarefas do dia a dia, como edição de documentos, envio de e-mails e organização de agendas. Um exemplo é o uso de aplicativos de edição de texto e planilhas.
+
+Além desses, existem os **Sistemas de Informação Integrados (ERP)**, que conectam diferentes setores de uma empresa em um único sistema, permitindo que todos compartilhem informações em tempo real. Um exemplo é um sistema que integra estoque, financeiro e vendas.
+
+Agora, analisando alguns sistemas conhecidos:
+
+* **gov.br**: é um sistema voltado ao cidadão que integra diversos serviços públicos. Pode ser considerado um **Sistema de Informação Gerencial e de Serviços**, pois organiza informações e oferece serviços digitais do governo.
+
+* **Netflix**: é um sistema que fornece conteúdo sob demanda e utiliza dados dos usuários para recomendar filmes e séries. Pode ser classificado como **Sistema de Apoio à Decisão e Sistema de Informação para o Consumidor**.
+
+* **Minha agenda UFN**: é um sistema utilizado por estudantes para organização de horários e compromissos. Ele se encaixa como **Sistema de Automação de Escritório**.
+
+* **Sistema de Imposto de Renda do Governo Brasileiro**: é um sistema que coleta, processa e armazena dados financeiros dos cidadãos. Pode ser classificado como **Sistema de Processamento de Transações**.
+
+* **Spotify**: é um sistema de streaming de música que também utiliza dados para recomendar conteúdos. Pode ser considerado um **Sistema de Apoio à Decisão e Sistema de Informação para o Consumidor**.
+
+Em resumo, os Sistemas de Informação estão presentes em praticamente todas as áreas da sociedade e são essenciais para organizar dados, melhorar processos e apoiar decisões.
+
+
+
 ## Tarefa 1 - Aula 3
   ## Realizar uma pesquisa (em IA generativa ou livros da área) sobre os conceitos ligados aos modelos de arquitetura de software:
     
