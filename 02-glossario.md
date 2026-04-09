@@ -17,6 +17,35 @@ Grandes provedores incluem:
 * Microsoft Azure
 * Google Cloud Platform
 
+**🔗 Relação entre IoT e Nuvem**
+
+A IoT depende fortemente da nuvem para funcionar de forma eficiente. Essa integração permite:
+
+📊 Processamento de grandes volumes de dados
+
+Dispositivos IoT geram dados em tempo real, e a nuvem fornece capacidade para armazenar e processar tudo isso.
+
+⚡ Escalabilidade
+
+É possível aumentar ou reduzir recursos rapidamente conforme a quantidade de dispositivos conectados cresce.
+
+🤖 Inteligência Artificial e Machine Learning
+
+A nuvem permite aplicar algoritmos avançados para:
+
+* Prever falhas
+* Automatizar decisões
+* Identificar padrões
+🔒 Segurança e gerenciamento
+
+Plataformas em nuvem oferecem:
+
+* Criptografia de dados
+* Monitoramento contínuo
+* Atualizações automáticas
+
+👉 Insight importante:
+Sem a nuvem, a IoT seria limitada, pois dispositivos físicos geralmente não possuem poder computacional suficiente para análises complexas.
 ## Trabalho fundamentos SI **(19/03)**
 
 Os Sistemas de Informação (SI) são conjuntos organizados de pessoas, processos e tecnologias que coletam, processam e distribuem informações para apoiar decisões e atividades dentro de uma organização ou no dia a dia das pessoas. Existem diferentes tipos de sistemas de informação, cada um com uma finalidade específica.
