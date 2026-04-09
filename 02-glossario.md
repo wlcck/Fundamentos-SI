@@ -13,9 +13,9 @@ Já a computação em nuvem é um modelo que permite acessar recursos computacio
 
 Grandes provedores incluem:
 
-- Amazon Web Services (AWS)
--Microsoft Azure
--Google Cloud Platform
+* Amazon Web Services (AWS)
+* Microsoft Azure
+* Google Cloud Platform
 
 ## Trabalho fundamentos SI **(19/03)**
 
