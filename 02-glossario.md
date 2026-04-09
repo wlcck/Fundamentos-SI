@@ -1,4 +1,21 @@
+## Computação em nuvem e IoT (09/04/2026) ##
 
+**🌐 Computação em Nuvem e IoT**
+
+A Internet das Coisas (IoT) refere-se à conexão de objetos físicos à internet, permitindo que eles coletem, processem e troquem dados automaticamente. Esses dispositivos incluem:
+
+Sensores (temperatura, movimento, pressão)
+Câmeras e sistemas de segurança
+Veículos conectados
+Eletrodomésticos inteligentes (geladeiras, lâmpadas, etc.)
+
+Já a computação em nuvem é um modelo que permite acessar recursos computacionais (armazenamento, servidores, banco de dados e software) pela internet, sob demanda, sem necessidade de infraestrutura local.
+
+Grandes provedores incluem:
+
+-Amazon Web Services (AWS)
+-Microsoft Azure
+-Google Cloud Platform
 
 ## Trabalho fundamentos SI **(19/03)**
 
