@@ -1,3 +1,39 @@
+## IoT e Modelo TCP/IP (16/04/2026) ##
+## Situações Fictícias: O Problema vs. A Solução ##
+Abaixo, três cenários práticos baseados nas camadas do modelo TCP/IP:
+
+**Cenário 1: O Termostato Espião (Camada de Aplicação/Internet)**
+* A Situação: Uma empresa instala termostatos inteligentes que usam o protocolo **HTTP** comum e possuem endereços **IP públicos** diretos. Um hacker descobre o IP, intercepta o tráfego (sem criptografia) e descobre a rotina dos funcionários pela temperatura das salas.
+ A Mitigação: A empresa atualiza o sistema para usar **HTTPS/MQTTS (Criptografia)** e coloca os dispositivos atrás de uma **VPN**. Agora, o tráfego é ilegível para externos e o IP do dispositivo não é mais visível na internet aberta.
+
+**Cenário 2: A Câmera "Zumbi" (Ataque DDoS)**
+* A Situação: Uma creche compra câmeras baratas com a senha padrão "123456". Um software malicioso (tipo a botnet Mirai) faz uma varredura na rede, "sequestra" 50 câmeras da creche e as usa para atacar o site de um banco, tirando-o do ar.
+* A Mitigação: O administrador da creche força a alteração de senhas para **combinações complexas** e instala um Firewall de borda que bloqueia o envio massivo de pacotes de dados anômalos partindo das câmeras.
+
+**Cenário 3: O Sensor de Umidade "Mentiroso" (Camada de Transporte)**
+* A Situação: Uma fazenda usa sensores que enviam dados via **UDP** (rápido, mas sem confirmação). Devido a uma interferência na rede Wi-Fi, os pacotes chegam corrompidos ou não chegam. O sistema entende que o solo está seco e gasta milhares de litros de água sem necessidade.
+
+* A Mitigação: O produtor altera a configuração para **TCP** em alertas críticos. O TCP garante que, se o pacote de dado "Solo Úmido" não chegar, ele seja reenviado até que o sistema de irrigação confirme o recebimento (Confiabilidade).
+
+
+## Como Mitigar o Máximo de Riscos (Resumo Estratégico)##
+1**Criptografia de Ponta a Ponta:**
+Nunca envie dados em "texto puro". Use TLS/SSL (como o HTTPS ou MQTTS). Se o dado for interceptado, ele será ilegível.
+
+**Higiene de Credenciais:**
+Banir senhas padrão (admin/admin). Implementar a troca obrigatória no primeiro acesso e usar autenticação de dois fatores (2FA) ou certificados digitais para os dispositivos.
+
+**Segmentação de Rede (VLANs):**
+Colocar os dispositivos IoT em uma rede separada da rede principal (onde estão computadores com dados bancários, por exemplo). Se a lâmpada for hackeada, o hacker não chega ao seu PC.
+
+**Atualização de Firmware (Patching):**
+Escolher dispositivos de fabricantes que ofereçam atualizações automáticas. Um dispositivo sem atualização é uma bomba-relógio.
+
+**Minimização de Portas:**
+Fechar todas as portas de comunicação que o dispositivo não utiliza. Se ele só envia dados, não precisa "ouvir" conexões externas (bloqueio por Firewall).
+
+
+
 ## Computação em nuvem e IoT (09/04/2026) ##
 
 **🌐 Computação em Nuvem e IoT**
