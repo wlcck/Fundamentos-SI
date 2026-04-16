@@ -1,4 +1,18 @@
 ## IoT e Modelo TCP/IP (16/04/2026) ##
+
+## 🌐 O Modelo TCP/IP na IoT ##
+**Camada de Aplicação:** É onde a "mágica" acontece para o usuário. Dispositivos usam protocolos leves como **MQTT** (focado em baixo consumo de bateria) ou **CoAP** para enviar mensagens como "luz acesa" ou "temperatura: 22°C".
+
+**Camada de Transporte:** Define como o dado viaja.
+
+* **TCP:** Garante que o dado chegue inteiro (ex: atualização de software).
+
+* **UDP:** Foca na velocidade (ex: sensores que enviam dados constantes onde perder um pacote não é crítico).
+
+**Camada de Internet:** Responsável pelo endereçamento. Cada dispositivo IoT precisa de um **IP** para ser encontrado na rede global ou local.
+
+**Camada de Acesso à Rede:** É a parte física e o sinal. Envolve o hardware e tecnologias como **Wi-Fi, Bluetooth, Zigbee ou Ethernet.**
+
 ## Situações Fictícias: O Problema vs. A Solução ##
 Abaixo, três cenários práticos baseados nas camadas do modelo TCP/IP:
 
