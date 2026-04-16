@@ -4,7 +4,7 @@ Abaixo, três cenários práticos baseados nas camadas do modelo TCP/IP:
 
 **Cenário 1: O Termostato Espião (Camada de Aplicação/Internet)**
 * A Situação: Uma empresa instala termostatos inteligentes que usam o protocolo **HTTP** comum e possuem endereços **IP públicos** diretos. Um hacker descobre o IP, intercepta o tráfego (sem criptografia) e descobre a rotina dos funcionários pela temperatura das salas.
- A Mitigação: A empresa atualiza o sistema para usar **HTTPS/MQTTS (Criptografia)** e coloca os dispositivos atrás de uma **VPN**. Agora, o tráfego é ilegível para externos e o IP do dispositivo não é mais visível na internet aberta.
+* A Mitigação: A empresa atualiza o sistema para usar **HTTPS/MQTTS (Criptografia)** e coloca os dispositivos atrás de uma **VPN**. Agora, o tráfego é ilegível para externos e o IP do dispositivo não é mais visível na internet aberta.
 
 **Cenário 2: A Câmera "Zumbi" (Ataque DDoS)**
 * A Situação: Uma creche compra câmeras baratas com a senha padrão "123456". Um software malicioso (tipo a botnet Mirai) faz uma varredura na rede, "sequestra" 50 câmeras da creche e as usa para atacar o site de um banco, tirando-o do ar.
@@ -12,11 +12,10 @@ Abaixo, três cenários práticos baseados nas camadas do modelo TCP/IP:
 
 **Cenário 3: O Sensor de Umidade "Mentiroso" (Camada de Transporte)**
 * A Situação: Uma fazenda usa sensores que enviam dados via **UDP** (rápido, mas sem confirmação). Devido a uma interferência na rede Wi-Fi, os pacotes chegam corrompidos ou não chegam. O sistema entende que o solo está seco e gasta milhares de litros de água sem necessidade.
-
 * A Mitigação: O produtor altera a configuração para **TCP** em alertas críticos. O TCP garante que, se o pacote de dado "Solo Úmido" não chegar, ele seja reenviado até que o sistema de irrigação confirme o recebimento (Confiabilidade).
 
 
-## Como Mitigar o Máximo de Riscos (Resumo Estratégico)##
+## Como Mitigar o Máximo de Riscos (Resumo Estratégico) ##
 1**Criptografia de Ponta a Ponta:**
 Nunca envie dados em "texto puro". Use TLS/SSL (como o HTTPS ou MQTTS). Se o dado for interceptado, ele será ilegível.
 
@@ -31,6 +30,9 @@ Escolher dispositivos de fabricantes que ofereçam atualizações automáticas. 
 
 **Minimização de Portas:**
 Fechar todas as portas de comunicação que o dispositivo não utiliza. Se ele só envia dados, não precisa "ouvir" conexões externas (bloqueio por Firewall).
+
+<img width="724" height="355" alt="{B856A97C-4228-489F-B50A-A2153F442E08}" src="https://github.com/user-attachments/assets/e8d8a427-2e53-4aa4-8389-5ce0a879e3f4" />
+
 
 
 
