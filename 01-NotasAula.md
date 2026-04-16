@@ -1,7 +1,8 @@
 # Notas de aula da disciplina
 ##  Aula 7
-- Internet das coisas
-- Sistemas pervasivos versus Sistemas úbiquos
+- Internet das coisas: todo lugar. todo momento e conectado
+    - Sistemas pervasivos versus Sistemas úbiquos
+        - Destaque: automação residencial, comercial e endustrial 
 ##  Aula 5
 - Tarefa avaliativa
     - Assunto: Tipos de sistema da Informação
