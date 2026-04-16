@@ -1,5 +1,7 @@
 # Notas de aula da disciplina
-
+##  Aula 7
+- Internet das coisas
+- Sistemas pervasivos versus Sistemas úbiquos
 ##  Aula 5
 - Tarefa avaliativa
     - Assunto: Tipos de sistema da Informação
