@@ -5,8 +5,8 @@ Exemplo: Em um projeto de software, a Metodologia Ágil (Scrum) é a escolha est
 **Técnica (A "Ferramenta"):** É a aplicação prática, o procedimento específico e operacional para realizar uma tarefa dentro da metodologia.
 Exemplo: Dentro do Scrum, usar a Técnica de Estimativa Planning Poker ou o Daily Stand-up são os procedimentos técnicos para executar a metodologia.
 
-2. Integração Trello + GitHub: Passo a Passo
-Para conectar suas tarefas do Trello com o código no GitHub, siga estes passos:
+## Integração Trello + GitHub: Passo a Passo ##
+**Para conectar suas tarefas do Trello com o código no GitHub, siga estes passos:**
 **Ativar o Power-Up:**
 * No seu quadro do Trello, clique em Power-Ups (no menu superior ou lateral).
 * Busque por GitHub e clique em Adicionar.
