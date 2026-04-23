@@ -10,13 +10,16 @@ Para conectar suas tarefas do Trello com o código no GitHub, siga estes passos:
 **Ativar o Power-Up:**
 * No seu quadro do Trello, clique em Power-Ups (no menu superior ou lateral).
 * Busque por GitHub e clique em Adicionar.
+
 **Autorizar a Conta:**
 * Abra um cartão qualquer no Trello.
 * No menu lateral do cartão, clique no botão GitHub que apareceu.
 * Clique em Autorizar conta do GitHub e faça login para dar permissão ao Trello.
+
 **Vincular Repositórios:**
 * No mesmo botão GitHub do cartão, escolha Vincular Repositório.
 * Selecione o repositório do projeto que você quer monitorar.
+
 **Uso Prático:**
 * Agora, dentro de cada cartão, você pode clicar em GitHub para anexar um Commit, uma Issue ou um Pull Request específico.
 * O cartão mostrará automaticamente se o código foi aprovado ou se há conflitos, sem você precisar sair do Trello.
