@@ -1,5 +1,23 @@
 # Notas de aula da disciplina
 ##  Aula 7
+- Boas praticas de deselvolvimento de software em GRUPO ou EQUIPE
+  - Sisteman de Versionamento de codig: git + Github
+   - controla versões
+   - controla backups
+   - controla equipe no deseilvomento coletivo
+   - ...
+- Sistema Kanban: TECNICA DE GERENCIAMENTO DE TAREFAS/ATIVIDADES
+   - foi criado pela Toyota: com postit
+     - coluna1 (a fazer ou TO DO)
+     - coluna2 (fazendo ou DOING)
+     - coluna3 (feito ou done)
+ - ATIVIDADE:
+  - pesquisar e colocar no glossario pessoal:
+    - os conceitos de tecnica versus metodologia
+    - pesquisar como integrar (se existe) trello com github
+
+
+##  Aula 6
 - Internet das coisas: todo lugar. todo momento e conectado
     - Sistemas pervasivos versus Sistemas úbiquos
         - Destaque: automação residencial, comercial e endustrial 
