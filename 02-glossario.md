@@ -1,4 +1,4 @@
-## O queé CRM##
+## O qué CRM ##
 CRM é a sigla para **Customer Relationship Management**, que em português significa **Gestão de Relacionamento com o Cliente.**
 
 Embora muita gente pense que é apenas um software, o CRM é, na verdade, uma combinação de **estratégia, processo e tecnologia** focada em entender e antecipar as necessidades dos clientes atuais e potenciais de uma empresa.
