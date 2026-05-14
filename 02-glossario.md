@@ -1,3 +1,23 @@
+## O queé CRM##
+CRM é a sigla para **Customer Relationship Management**, que em português significa **Gestão de Relacionamento com o Cliente.**
+
+Embora muita gente pense que é apenas um software, o CRM é, na verdade, uma combinação de **estratégia, processo e tecnologia** focada em entender e antecipar as necessidades dos clientes atuais e potenciais de uma empresa.
+
+## Os Três Pilares do CRM
+Para entender como ele funciona na prática, podemos dividi-lo em três frentes:
+
+**Estratégia:** É a mentalidade de colocar o cliente no centro do negócio (customer centric). Em vez de focar apenas no produto, a empresa foca em criar uma jornada de compra personalizada e positiva.
+**Processo:** Define como as equipes de vendas, marketing e atendimento devem interagir com o cliente em cada etapa da jornada.
+**Tecnologia (O Software):** É a ferramenta que centraliza todos os dados. Imagine uma agenda super inteligente que guarda desde o e-mail do cliente até o histórico de compras, reclamações e a última vez que ele visitou seu site.
+
+### O que um software de CRM faz por você?
+<img width="725" height="407" alt="{A919581A-164C-4C12-8731-B44A28486E04}" src="https://github.com/user-attachments/assets/29ee1e5b-a0a5-4fdd-8c59-e4750d688dcd" />
+
+### Por que ele é importante?
+Sem um CRM, é muito fácil "deixar dinheiro na mesa". Se um vendedor esquece de retornar uma ligação ou se o marketing envia uma promoção de algo que o cliente acabou de comprar, a experiência é prejudicada.
+**Em resumo:** O CRM serve para que a empresa pareça uma pessoa só conversando com o cliente, independentemente de quem está atendendo ou de qual canal está sendo usado.
+
+
 ## Técnica vs. Metodologia ##
 **Metodologia (O "Caminho"):** É a estratégia macro, o estudo dos métodos. É o plano de ação que define como você vai abordar um problema de forma científica ou profissional.
 Exemplo: Em um projeto de software, a Metodologia Ágil (Scrum) é a escolha estratégica de como a equipe se organiza e se comunica.
