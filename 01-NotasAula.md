@@ -1,4 +1,28 @@
 # Notas de aula da disciplina
+##  Aula 8
+**Sistema de Gestão de Pizzaria**
+- apps = serviçoes = funcionarios
+- gestão de Usuarios
+- Gestão de insumo
+- Gestao de fornecedores
+- Gestão fornecedor-insumo
+- Gestão pizza-insumo
+- Gestão clinete
+- Gestão cliente pizza
+- **CRM**
+
+**Sistema Web**
+- Computação em Nuvem
+- Arquitetura cliente-servidor
+- Siatema Operacional Ubuntu 22.04
+- SGBD MYSQL
+- Firewall Natavio S.O
+- Gunicow
+- NGnx
+- Python-Django-bootstrap
+  - Funcionalidade serviços
+    - Gestões == Crud
+
 ##  Aula 7
 - Boas praticas de deselvolvimento de software em GRUPO ou EQUIPE
   - Sisteman de Versionamento de codig: git + Github
