@@ -15,7 +15,7 @@ Para entender como ele funciona na prática, podemos dividi-lo em três frentes:
 
 ### Por que ele é importante?
 Sem um CRM, é muito fácil "deixar dinheiro na mesa". Se um vendedor esquece de retornar uma ligação ou se o marketing envia uma promoção de algo que o cliente acabou de comprar, a experiência é prejudicada.
-## Em resumo:## 
+## Em resumo: ## 
 O CRM serve para que a empresa pareça uma pessoa só conversando com o cliente, independentemente de quem está atendendo ou de qual canal está sendo usado.
 
 
