@@ -1,3 +1,92 @@
+## 1. Máquina Virtual (Virtual Machine - VM)
+## O que é?
+Uma Máquina Virtual é como um computador completo correndo dentro do seu próprio computador. Ela simula um hardware real (processador, memória, disco rígido) através de um software chamado Hypervisor. Isso permite que você instale um sistema operacional inteiro (como o Linux) dentro de outro (como o Windows).
+## Para que serve?
+Testar sistemas operacionais: Experimentar o Linux ou o Windows 11 sem precisar formatar seu computador real.
+## Segurança e Isolamento:
+Rodar arquivos suspeitos ou navegar em sites perigosos. Se a VM pegar um vírus, seu computador real continua 100% seguro.
+## Rodar programas antigos:
+Usar um software antigo que só funciona no Windows XP ou Windows 7.
+Servidores em Nuvem: Empresas (como Google Cloud ou AWS) usam VMs para dividir um servidor físico gigante em centenas de computidores virtuais menores para os clientes.
+
+## Exemplos:
+**VirtualBox (da Oracle):** Gratuito, de código aberto e excelente para usuários comuns e estudantes.
+**VMware Workstation / Player:** Uma das ferramentas mais potentes e profissionais do mercado, muito usada em empresas.
+**Hyper-V:** O sistema de criação de VMs nativo do próprio Windows (disponível nas versões Pro e Enterprise).
+
+## 2. Ambiente Virtual (Virtual Environment)
+## O que é?
+Um Ambiente Virtual é um espaço isolado dentro do seu sistema operacional dedicado a um projeto específico (geralmente de programação). Em vez de simular um computador inteiro, ele apenas isola pastas, bibliotecas e versões de linguagens de programação (como Python ou Node.js).
+## Para que serve?
+Evitar conflitos de versões: Imagine que o Projeto A precisa da versão 1.0 de uma biblioteca e o Projeto B precisa da versão 2.0. O ambiente virtual permite que ambos coexistam no mesmo computador sem que um quebre o outro.
+## Organização:
+Mantém o seu computador "limpo", instalando as ferramentas de desenvolvimento apenas dentro da pasta daquele projeto específico.
+## Facilidade de compartilhamento: 
+Permite que outros programadores rodem o seu código exatamente com as mesmas configurações que você usou.
+
+## Exemplos (focados em programação):
+**venv ou virtualenv (Python):** Cria pastas isoladas para que você instale pacotes Python específicos para cada projeto.
+**Conda (Python/Data Science):** Muito usado por cientistas de dados para gerenciar pacotes e ambientes complexos.
+**Contêineres (Docker):** Embora seja um conceito um pouco mais avançado, o Docker funciona como um "ambiente virtual supremo", empacotando o aplicativo e tudo o que ele precisa para rodar em qualquer lugar.
+
+## Tutorial de como criar um docker 
+Criar um "Docker" geralmente significa duas coisas: criar uma **Imagem Docker** (o modelo do seu aplicativo) e rodar um **Contêiner Docker** (a instância viva dessa imagem executando no seu computador).
+Para este tutorial, vamos criar um projeto simples: uma página web básica rodando dentro do Docker.
+
+## Pré-requisitos
+Antes de começar, você precisa ter o **Docker Desktop** instalado no seu computador. Você pode baixá-lo no site oficial do Docker e seguir o instalador padrão.
+
+## Passo a Passo: Criando seu primeiro Contêiner
+**Passo 1: Criar a pasta do projeto**
+Crie uma pasta vazia no seu computador com o nome que desejar (ex: meu-projeto-docker).
+
+**Passo 2: Criar o arquivo do seu aplicativo**
+Dentro dessa pasta, crie um arquivo simples que queremos que o Docker execute. Vamos criar uma página web básica.
+
+- Crie um arquivo chamado index.html.
+- Cole o seguinte código dentro dele:
+<img width="645" height="291" alt="{674244CC-826F-4D12-8D2D-ED465AEA0255}" src="https://github.com/user-attachments/assets/54514871-b39b-4226-b7f6-4bc2abc84071" />
+
+## Passo 3: Criar o Dockerfile
+O Dockerfile é a "receita do bolo". É um arquivo de texto sem extensão que diz ao Docker como construir a sua imagem.
+- Dentro da mesma pasta, crie um arquivo de texto e mude o nome dele para exatamente: Dockerfile (sem .txt no final).
+- Abra o arquivo e cole as seguintes instruções:
+<img width="670" height="246" alt="{D0FBD545-5D15-4290-87CE-1E959CEA2B0B}" src="https://github.com/user-attachments/assets/40c62f12-170f-4d95-80f9-33925f6d40b6" />
+
+## Passo 4: Construir e Rodar no Terminal
+Agora, abra o terminal do seu computador (Prompt de Comando, PowerShell ou Terminal do Linux/Mac) e navegue até a pasta do seu projeto usando o comando cd (ex: cd caminho/da/pasta/meu-projeto-docker).
+Siga o fluxo abaixo no terminal:
+
+## 1. Construir a Imagem (Build)
+Execute o comando abaixo para compilar a sua receita (Dockerfile) e transformá-la em uma imagem. Não esqueça do ponto . no final!
+<img width="559" height="91" alt="{4BF01207-753E-4D46-9463-BA90EED95C89}" src="https://github.com/user-attachments/assets/1debdc27-1641-4d23-a369-080b2225b5f8" />
+(O -t meu-primeiro-site dá um nome amigável para a sua imagem).
+
+## 2. Rodar o Contêiner (Run)
+Agora que a imagem está pronta, vamos transformá-la em um contêiner ativo:
+<img width="638" height="85" alt="{6978BD78-A960-4736-9F06-6373CAF7684A}" src="https://github.com/user-attachments/assets/d0d9c443-eb1a-4b0c-bc88-036234d568a2" />
+
+## O que significam esses parâmetros?
+- -d: Roda o contêiner em segundo plano (libera o seu terminal).
+- -p 8080:80: Redireciona a porta 8080 do seu computador real para a porta 80 interna do Docker.
+- --name: Dá um nome para o seu contêiner.
+
+## Passo 5: Testar o resultado 
+Abra o seu navegador de internet e digite o seguinte endereço:
+http://localhost:8080
+Você verá a sua página HTML rodando direto de dentro do contêiner Docker!
+
+## Comandos Úteis para o Dia a Dia
+Se quiser gerenciar o seu novo contêiner pelo terminal, aqui estão os comandos principais:
+Ver contêineres ativos: docker ps
+Parar o contêiner: docker stop meu-container-vivo
+Iniciar novamente: docker start meu-container-vivo
+Excluir o contêiner: docker rm -f meu-container-vivo
+
+
+
+
+
 ## O qué CRM ##
 CRM é a sigla para **Customer Relationship Management**, que em português significa **Gestão de Relacionamento com o Cliente.**
 
