@@ -1,3 +1,21 @@
+## Conceitos Rápidos ##
+Governança (COBIT/ITIL): COBIT define o que controlar (alinhamento e riscos); ITIL define como gerenciar (processos e serviços de TI).
+Princípios LGPD: Finalidade (usar dados só para o que foi avisado), Necessidade (coletar o mínimo possível) e Segurança (proteger o software).
+Privacy by Design: Embutir privacidade desde o início do código, por padrão (default), e não como um ajuste final.
+Dados Sensíveis: Dados de saúde, biometria, religião ou raça. Exigem proteção jurídica e técnica máxima.
+
+## Resolução do Desafio: Caso MedAgenda ##
+1. O que deu errado?
+Dados Expostos: Nomes e CPFs (dados pessoais) vinculados a Diagnósticos (dados sensíveis de saúde).
+Princípios Violados: Falha grave de Segurança (vazamento físico), falta de Prevenção e desvio de Finalidade (usar produção em testes).
+2. Como a Tecnologia evitaria isso?
+Ambientes Isolados (Docker): Desenvolvedores rodam bancos locais via Docker usando apenas dados falsos (mocks) ou sintéticos. Produção fica isolada.
+Anonimização / Mascaramento: Se precisar de dados reais, rodar um script antes para apagar nomes/CPFs e embaralhar os diagnósticos, tornando impossível identificar os pacientes.
+3. Como a Governança deve agir na Nuvem (AWS)?
+Princípio do Menor Privilégio: Bloquear o acesso de desenvolvedores ao banco de produção (via AWS IAM). Programador não faz dump de produção.
+
+Segurança de Endpoints: Proibir dados em notebooks pessoais e exigir criptografia de disco rígido (se o PC for roubado, os dados continuam ilegíveis).
+
 ## 1. Máquina Virtual (Virtual Machine - VM)
 ## O que é?
 Uma Máquina Virtual é como um computador completo correndo dentro do seu próprio computador. Ela simula um hardware real (processador, memória, disco rígido) através de um software chamado Hypervisor. Isso permite que você instale um sistema operacional inteiro (como o Linux) dentro de outro (como o Windows).
